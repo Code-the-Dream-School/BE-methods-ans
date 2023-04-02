@@ -21,14 +21,13 @@ end
 
 
 class Sum2
-  attr_accessor :a, :b
   def initialize(a, b)
     @a = a.to_i
     @b = b.to_i
   end
 
   def new_total
-    return a + b
+    return @a + @b
   end
 end
 
